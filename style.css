@@ -18,9 +18,12 @@
 }
 body{
     background: #1E1E1E;
+    height: 100%;
+    max-width: 100%;
+
 }
 .container{
-    width: 1028px;
+    max-width: 1028px;
     margin: 0 auto;
 }
 .right{
@@ -102,7 +105,7 @@ img#humburger-icon1{
     left: -23px;
     padding: 30px;
     background-color: rgb(118, 74, 255);
-    width: 600px;
+    max-width: 600px;
     opacity: 0.90;
     height: 100vh;
     display: none;
@@ -168,7 +171,7 @@ img#humburger-icon1{
   /* Search Area */
   .search_area{
     display: flex;
-    width: 642px;
+    max-width: 642px;
     height: 72px;
     background-color: #fff;
     margin: 0 auto;
@@ -182,7 +185,7 @@ img#humburger-icon1{
     padding: 5px;
   }
   .search_area input[type="text"] {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     font-family: 'Verdana';
     font-style: normal;
